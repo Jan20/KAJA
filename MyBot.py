@@ -24,7 +24,8 @@ from collections import OrderedDict
 while True:
     game_map = game.update_map()
     command_queue = []
-    
+    harassers = []
+
     for ship in game_map.get_me().all_ships():
         shipid = ship.id
         if ship.docking_status != ship.DockingStatus.UNDOCKED:
@@ -40,25 +41,25 @@ while True:
         closest_enemy_ships = [entities_by_distance[distance][0] for distance in entities_by_distance if isinstance(entities_by_distance[distance][0], hlt.entity.Ship) and entities_by_distance[distance][0] not in team_ships]
 
         # harass
-        if (true):
+        if ( len(closest_enemy_ships) > 0 and len(closest_enemy_ships) < 5 and len(harassers) < 1):
             
-            # Attack enemy ships currently mining
-            # if len(closest_enemy_ships) > 0:
-                
-                # target_ship = closest_enemy_ships[0]
-                
-                # for enemy_ship in closest_enemy_ships:
-                #     if enemy_ship.docking_status != ship.DockingStatus.UNDOCKED:
-                        
-                #         navigate_command = ship.navigate(
-                #             ship.closest_point_to(enemy_ship),
-                #             game_map,
-                #             speed=int(hlt.constants.MAX_SPEED),
-                #             ignore_ships=False)
+            harassers.append(ship)
 
-                #         if navigate_command:
-                #             command_queue.append(navigate_command)
-                #             break
+            # Attack enemy ships currently mining
+            target_ship = closest_enemy_ships[0]
+            
+            for enemy_ship in closest_enemy_ships:
+                if enemy_ship.docking_status != ship.DockingStatus.UNDOCKED:
+                    
+                    navigate_command = ship.navigate(
+                        ship.closest_point_to(enemy_ship),
+                        game_map,
+                        speed=int(hlt.constants.MAX_SPEED),
+                        ignore_ships=False)
+
+                    if navigate_command:
+                        command_queue.append(navigate_command)
+                        break
 
         else:
             # If there are any empty planets, let's try to mine!
