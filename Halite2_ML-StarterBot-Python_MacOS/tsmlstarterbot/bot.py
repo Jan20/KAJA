@@ -291,7 +291,7 @@ class Bot:
 
                 logging.info('Combat Mechanic Active______________________')
                 logging.info(closest_team_ship_distance)
-                if closest_team_ship_distance > 11 and closest_team_ship_distance < 4: 
+                if closest_team_ship_distance > 11: 
                     if closest_team_ship != None:
                         logging.info('Defend________________________________________________')
                         command_queue.append(
