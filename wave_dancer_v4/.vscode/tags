@@ -1,0 +1,203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDITIONAL_PRODUCTIVITY	../hlt/constants.py	/^ADDITIONAL_PRODUCTIVITY = 6$/;"	kind:variable	line:23
+BASE_PRODUCTIVITY	../hlt/constants.py	/^BASE_PRODUCTIVITY = 6$/;"	kind:variable	line:22
+BASE_SHIP_HEALTH	../hlt/constants.py	/^BASE_SHIP_HEALTH = 255$/;"	kind:variable	line:10
+Bot	../MyBotShortTraining.py	/^from tsmlstarterbot.bot import Bot$/;"	kind:namespace	line:1
+Bot	../tsmlstarterbot/__init__.py	/^from tsmlstarterbot.bot import Bot$/;"	kind:namespace	line:1
+Bot	../tsmlstarterbot/bot.py	/^class Bot:$/;"	kind:class	line:11
+DOCKED	../hlt/entity.py	/^        DOCKED = 2$/;"	kind:variable	line:214
+DOCKED_SHIP_REGENERATION	../hlt/constants.py	/^DOCKED_SHIP_REGENERATION = 0$/;"	kind:variable	line:11
+DOCKING	../hlt/entity.py	/^        DOCKING = 1$/;"	kind:variable	line:213
+DOCK_RADIUS	../hlt/constants.py	/^DOCK_RADIUS = 4$/;"	kind:variable	line:18
+DOCK_TURNS	../hlt/constants.py	/^DOCK_TURNS = 5$/;"	kind:variable	line:19
+DRAG	../hlt/constants.py	/^DRAG = 2$/;"	kind:variable	line:4
+DockingStatus	../hlt/entity.py	/^    class DockingStatus(Enum):$/;"	kind:class	line:211
+EPSILON	../tests/neural_net_test.py	/^EPSILON = 1e-6$/;"	kind:variable	line:7
+EXPLOSION_RADIUS	../hlt/constants.py	/^EXPLOSION_RADIUS = 10.0$/;"	kind:variable	line:16
+EXTRA_PLANETS	../hlt/constants.py	/^EXTRA_PLANETS = 4$/;"	kind:variable	line:2
+Entity	../hlt/collision.py	/^from .entity import Position, Entity$/;"	kind:namespace	line:1
+Entity	../hlt/entity.py	/^class Entity:$/;"	kind:class	line:7
+Enum	../hlt/entity.py	/^from enum import Enum$/;"	kind:namespace	line:3
+FEATURE_NAMES	../tsmlstarterbot/common.py	/^FEATURE_NAMES = [$/;"	kind:variable	line:7
+FIRST_LAYER_SIZE	../tsmlstarterbot/neural_net.py	/^    FIRST_LAYER_SIZE = 12$/;"	kind:variable	line:26
+Game	../hlt/__init__.py	/^from .networking import Game$/;"	kind:namespace	line:11
+Game	../hlt/networking.py	/^class Game:$/;"	kind:class	line:8
+MAX_SHIP_HEALTH	../hlt/constants.py	/^MAX_SHIP_HEALTH = 255$/;"	kind:variable	line:9
+MAX_SPEED	../hlt/constants.py	/^MAX_SPEED = 7$/;"	kind:variable	line:5
+Map	../hlt/game_map.py	/^class Map:$/;"	kind:class	line:4
+MyBot.py	../MyBot.py	1;"	kind:file	line:1
+MyBotShortTraining.py	../MyBotShortTraining.py	1;"	kind:file	line:1
+NeuralNet	../tests/neural_net_test.py	/^from tsmlstarterbot.neural_net import NeuralNet$/;"	kind:namespace	line:1
+NeuralNet	../tsmlstarterbot/bot.py	/^from tsmlstarterbot.neural_net import NeuralNet$/;"	kind:namespace	line:9
+NeuralNet	../tsmlstarterbot/neural_net.py	/^class NeuralNet(object):$/;"	kind:class	line:25
+NeuralNet	../tsmlstarterbot/train.py	/^from tsmlstarterbot.neural_net import NeuralNet$/;"	kind:namespace	line:10
+PER_PLANET_FEATURES	../tests/neural_net_test.py	/^from tsmlstarterbot.common import PLANET_MAX_NUM, PER_PLANET_FEATURES$/;"	kind:namespace	line:2
+PER_PLANET_FEATURES	../tsmlstarterbot/common.py	/^PER_PLANET_FEATURES = len(FEATURE_NAMES)$/;"	kind:variable	line:21
+PER_PLANET_FEATURES	../tsmlstarterbot/neural_net.py	/^from tsmlstarterbot.common import PLANET_MAX_NUM, PER_PLANET_FEATURES$/;"	kind:namespace	line:5
+PLANETS_PER_PLAYER	../hlt/constants.py	/^PLANETS_PER_PLAYER = 8$/;"	kind:variable	line:1
+PLANET_MAX_NUM	../tests/neural_net_test.py	/^from tsmlstarterbot.common import PLANET_MAX_NUM, PER_PLANET_FEATURES$/;"	kind:namespace	line:2
+PLANET_MAX_NUM	../tsmlstarterbot/common.py	/^PLANET_MAX_NUM = 28$/;"	kind:variable	line:4
+PLANET_MAX_NUM	../tsmlstarterbot/neural_net.py	/^from tsmlstarterbot.common import PLANET_MAX_NUM, PER_PLANET_FEATURES$/;"	kind:namespace	line:5
+PRODUCTION_PER_SHIP	../hlt/constants.py	/^PRODUCTION_PER_SHIP = 72$/;"	kind:variable	line:21
+Planet	../hlt/entity.py	/^class Planet(Entity):$/;"	kind:class	line:76
+Player	../hlt/game_map.py	/^class Player:$/;"	kind:class	line:139
+Position	../hlt/collision.py	/^from .entity import Position, Entity$/;"	kind:namespace	line:1
+Position	../hlt/entity.py	/^class Position(Entity):$/;"	kind:class	line:353
+RESOURCES_PER_RADIUS	../hlt/constants.py	/^RESOURCES_PER_RADIUS = 144$/;"	kind:variable	line:20
+SECOND_LAYER_SIZE	../tsmlstarterbot/neural_net.py	/^    SECOND_LAYER_SIZE = 6$/;"	kind:variable	line:27
+SEED	../tests/neural_net_test.py	/^SEED = 0$/;"	kind:variable	line:8
+SHIP_RADIUS	../hlt/constants.py	/^SHIP_RADIUS = 0.5$/;"	kind:variable	line:7
+SPAWN_RADIUS	../hlt/constants.py	/^SPAWN_RADIUS = 2.0$/;"	kind:variable	line:25
+Ship	../hlt/entity.py	/^class Ship(Entity):$/;"	kind:class	line:198
+TemporaryDirectory	../bin/compare_zips.py	/^from tempfile import TemporaryDirectory$/;"	kind:namespace	line:6
+TestNeuralNet	../tests/neural_net_test.py	/^class TestNeuralNet(unittest.TestCase):$/;"	kind:class	line:15
+UNDOCKED	../hlt/entity.py	/^        UNDOCKED = 0$/;"	kind:variable	line:212
+UNDOCKING	../hlt/entity.py	/^        UNDOCKING = 3$/;"	kind:variable	line:215
+WEAPON_COOLDOWN	../hlt/constants.py	/^WEAPON_COOLDOWN = 1$/;"	kind:variable	line:13
+WEAPON_DAMAGE	../hlt/constants.py	/^WEAPON_DAMAGE = 64$/;"	kind:variable	line:15
+WEAPON_RADIUS	../hlt/constants.py	/^WEAPON_RADIUS = 5.0$/;"	kind:variable	line:14
+__init__	../hlt/entity.py	/^    def __init__(self, planet_id, x, y, hp, radius, docking_spots, current,$/;"	kind:member	line:94
+__init__	../hlt/entity.py	/^    def __init__(self, player_id, ship_id, x, y, hp, vel_x, vel_y,$/;"	kind:member	line:217
+__init__	../hlt/entity.py	/^    def __init__(self, x, y):$/;"	kind:member	line:366
+__init__	../hlt/entity.py	/^    def __init__(self, x, y, radius, health, player, entity_id):$/;"	kind:member	line:22
+__init__	../hlt/game_map.py	/^    def __init__(self, my_id, width, height):$/;"	kind:member	line:12
+__init__	../hlt/game_map.py	/^    def __init__(self, player_id, ships={}):$/;"	kind:member	line:143
+__init__	../hlt/networking.py	/^    def __init__(self, name):$/;"	kind:member	line:71
+__init__	../tsmlstarterbot/bot.py	/^    def __init__(self, location, name):$/;"	kind:member	line:12
+__init__	../tsmlstarterbot/neural_net.py	/^    def __init__(self, cached_model=None, seed=None):$/;"	kind:member	line:29
+__init__.py	../hlt/__init__.py	1;"	kind:file	line:1
+__init__.py	../tsmlstarterbot/__init__.py	1;"	kind:file	line:1
+__metaclass__	../hlt/entity.py	/^    __metaclass__ = abc.ABCMeta$/;"	kind:variable	line:20
+__repr__	../hlt/entity.py	/^    def __repr__(self):$/;"	kind:member	line:72
+__repr__	../hlt/game_map.py	/^    def __repr__(self):$/;"	kind:member	line:200
+__str__	../hlt/entity.py	/^    def __str__(self):$/;"	kind:member	line:68
+__str__	../hlt/game_map.py	/^    def __str__(self):$/;"	kind:member	line:197
+_all_ships	../hlt/game_map.py	/^    def _all_ships(self):$/;"	kind:member	line:96
+_done_sending	../hlt/networking.py	/^    def _done_sending():$/;"	kind:member	line:25
+_get_string	../hlt/networking.py	/^    def _get_string():$/;"	kind:member	line:35
+_intersects_entity	../hlt/game_map.py	/^    def _intersects_entity(self, target):$/;"	kind:member	line:107
+_link	../hlt/entity.py	/^    def _link(self, players, planets):$/;"	kind:member	line:141
+_link	../hlt/entity.py	/^    def _link(self, players, planets):$/;"	kind:member	line:301
+_link	../hlt/entity.py	/^    def _link(self, players, planets):$/;"	kind:member	line:374
+_link	../hlt/entity.py	/^    def _link(self, players, planets):$/;"	kind:member	line:65
+_link	../hlt/game_map.py	/^    def _link(self):$/;"	kind:member	line:74
+_parse	../hlt/entity.py	/^    def _parse(player_id, tokens):$/;"	kind:member	line:338
+_parse	../hlt/entity.py	/^    def _parse(tokens):$/;"	kind:member	line:180
+_parse	../hlt/game_map.py	/^    def _parse(self, map_string):$/;"	kind:member	line:82
+_parse	../hlt/game_map.py	/^    def _parse(tokens):$/;"	kind:member	line:181
+_parse_single	../hlt/entity.py	/^    def _parse_single(player_id, tokens):$/;"	kind:member	line:313
+_parse_single	../hlt/entity.py	/^    def _parse_single(tokens):$/;"	kind:member	line:154
+_parse_single	../hlt/game_map.py	/^    def _parse_single(tokens):$/;"	kind:member	line:167
+_send_string	../hlt/networking.py	/^    def _send_string(s):$/;"	kind:member	line:14
+_set_up_logging	../hlt/networking.py	/^    def _set_up_logging(tag, name):$/;"	kind:member	line:59
+abc	../hlt/entity.py	/^import abc$/;"	kind:namespace	line:1
+all_docked_ships	../hlt/entity.py	/^    def all_docked_ships(self):$/;"	kind:member	line:117
+all_planets	../hlt/game_map.py	/^    def all_planets(self):$/;"	kind:member	line:54
+all_players	../hlt/game_map.py	/^    def all_players(self):$/;"	kind:member	line:39
+all_ships	../hlt/game_map.py	/^    def all_ships(self):$/;"	kind:member	line:151
+angle	../tsmlstarterbot/parsing.py	/^def angle(x, y):$/;"	kind:function	line:7
+angle_dist	../tsmlstarterbot/parsing.py	/^def angle_dist(a1, a2):$/;"	kind:function	line:21
+argparse	../bin/compare_zips.py	/^import argparse$/;"	kind:namespace	line:5
+argparse	../tsmlstarterbot/train.py	/^import argparse$/;"	kind:namespace	line:1
+args	../bin/compare_zips.py	/^    args = parser.parse_args()$/;"	kind:variable	line:62
+bot.py	../tsmlstarterbot/bot.py	1;"	kind:file	line:1
+calculate_angle_between	../hlt/entity.py	/^    def calculate_angle_between(self, target):$/;"	kind:member	line:39
+calculate_distance_between	../hlt/entity.py	/^    def calculate_distance_between(self, target):$/;"	kind:member	line:30
+can_dock	../hlt/entity.py	/^    def can_dock(self, planet):$/;"	kind:member	line:292
+cd	../bin/compare_zips.py	/^def cd(newdir):$/;"	kind:function	line:10
+closest_point_to	../hlt/entity.py	/^    def closest_point_to(self, target, min_distance=3):$/;"	kind:member	line:48
+collision	../hlt/__init__.py	/^from . import collision, constants, entity, game_map, networking$/;"	kind:namespace	line:9
+collision	../hlt/game_map.py	/^from . import collision, entity$/;"	kind:namespace	line:1
+collision.py	../hlt/collision.py	1;"	kind:file	line:1
+common.py	../tsmlstarterbot/common.py	1;"	kind:file	line:1
+compare	../bin/compare_zips.py	/^def compare(bot1, bot2, binary, num_games):$/;"	kind:function	line:18
+compare_zips.py	../bin/compare_zips.py	1;"	kind:file	line:1
+compute_loss	../tsmlstarterbot/neural_net.py	/^    def compute_loss(self, input_data, expected_output_data):$/;"	kind:member	line:93
+constants	../hlt/__init__.py	/^from . import collision, constants, entity, game_map, networking$/;"	kind:namespace	line:9
+constants	../hlt/entity.py	/^from . import constants$/;"	kind:namespace	line:4
+constants.py	../hlt/constants.py	1;"	kind:file	line:1
+contextmanager	../bin/compare_zips.py	/^from contextlib import contextmanager$/;"	kind:namespace	line:7
+copy	../hlt/networking.py	/^import copy$/;"	kind:namespace	line:3
+distance	../tsmlstarterbot/common.py	/^def distance(x1, y1, x2, y2):$/;"	kind:function	line:27
+distance2	../tsmlstarterbot/common.py	/^def distance2(x1, y1, x2, y2):$/;"	kind:function	line:23
+dock	../hlt/entity.py	/^    def dock(self, planet):$/;"	kind:member	line:243
+entity	../hlt/__init__.py	/^from . import collision, constants, entity, game_map, networking$/;"	kind:namespace	line:9
+entity	../hlt/game_map.py	/^from . import collision, entity$/;"	kind:namespace	line:1
+entity.py	../hlt/entity.py	1;"	kind:file	line:1
+equal	../tests/neural_net_test.py	/^def equal(a, b):$/;"	kind:function	line:11
+fetch_data_dir	../tsmlstarterbot/train.py	/^def fetch_data_dir(directory, limit):$/;"	kind:function	line:13
+fetch_data_zip	../tsmlstarterbot/train.py	/^def fetch_data_zip(zipfilename, limit):$/;"	kind:function	line:44
+find_target_planet	../tsmlstarterbot/parsing.py	/^def find_target_planet(bot_id, current_frame, planets, move):$/;"	kind:function	line:25
+find_winner	../tsmlstarterbot/parsing.py	/^def find_winner(data):$/;"	kind:function	line:14
+fit	../tsmlstarterbot/neural_net.py	/^    def fit(self, input_data, expected_output_data):$/;"	kind:member	line:69
+format_data_for_training	../tsmlstarterbot/parsing.py	/^def format_data_for_training(data):$/;"	kind:function	line:66
+game_map	../hlt/__init__.py	/^from . import collision, constants, entity, game_map, networking$/;"	kind:namespace	line:9
+game_map	../hlt/networking.py	/^from . import game_map$/;"	kind:namespace	line:5
+game_map.py	../hlt/game_map.py	1;"	kind:file	line:1
+get_docked_ship	../hlt/entity.py	/^    def get_docked_ship(self, ship_id):$/;"	kind:member	line:108
+get_me	../hlt/game_map.py	/^    def get_me(self):$/;"	kind:member	line:24
+get_planet	../hlt/game_map.py	/^    def get_planet(self, planet_id):$/;"	kind:member	line:46
+get_player	../hlt/game_map.py	/^    def get_player(self, player_id):$/;"	kind:member	line:31
+get_ship	../hlt/game_map.py	/^    def get_ship(self, ship_id):$/;"	kind:member	line:158
+heapq	../tsmlstarterbot/bot.py	/^import heapq$/;"	kind:namespace	line:1
+hlt	../tsmlstarterbot/bot.py	/^import hlt$/;"	kind:namespace	line:7
+intersect_segment_circle	../hlt/collision.py	/^def intersect_segment_circle(start, end, circle, *, fudge=0.5):$/;"	kind:function	line:4
+is_full	../hlt/entity.py	/^    def is_full(self):$/;"	kind:member	line:133
+is_owned	../hlt/entity.py	/^    def is_owned(self):$/;"	kind:member	line:125
+json	../tsmlstarterbot/train.py	/^import json$/;"	kind:namespace	line:2
+logging	../hlt/networking.py	/^import logging$/;"	kind:namespace	line:2
+logging	../tsmlstarterbot/bot.py	/^import logging$/;"	kind:namespace	line:5
+main	../tsmlstarterbot/train.py	/^def main():$/;"	kind:function	line:61
+math	../hlt/entity.py	/^import math$/;"	kind:namespace	line:2
+math	../tsmlstarterbot/common.py	/^import math$/;"	kind:namespace	line:1
+navigate	../hlt/entity.py	/^    def navigate(self, target, game_map, speed, avoid_obstacles=True, max_corrections=90, angular_step=1):$/;"	kind:member	line:260
+navigate	../tsmlstarterbot/bot.py	/^    def navigate(self, game_map, start_of_round, ship, destination, speed):$/;"	kind:member	line:330
+nearby_entities_by_distance	../hlt/game_map.py	/^    def nearby_entities_by_distance(self, entity):$/;"	kind:member	line:61
+networking	../hlt/__init__.py	/^from . import collision, constants, entity, game_map, networking$/;"	kind:namespace	line:9
+networking.py	../hlt/networking.py	1;"	kind:file	line:1
+neural_net.py	../tsmlstarterbot/neural_net.py	1;"	kind:file	line:1
+neural_net_test.py	../tests/neural_net_test.py	1;"	kind:file	line:1
+normalize_input	../tsmlstarterbot/neural_net.py	/^def normalize_input(input_data):$/;"	kind:function	line:14
+np	../tests/neural_net_test.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../tsmlstarterbot/bot.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../tsmlstarterbot/neural_net.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../tsmlstarterbot/parsing.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../tsmlstarterbot/train.py	/^import numpy as np$/;"	kind:namespace	line:6
+obstacles_between	../hlt/game_map.py	/^    def obstacles_between(self, ship, target):$/;"	kind:member	line:122
+os	../bin/compare_zips.py	/^import os$/;"	kind:namespace	line:2
+os	../tsmlstarterbot/bot.py	/^import os$/;"	kind:namespace	line:3
+os	../tsmlstarterbot/neural_net.py	/^import os$/;"	kind:namespace	line:1
+os	../tsmlstarterbot/train.py	/^import os.path$/;"	kind:namespace	line:3
+parse	../tsmlstarterbot/parsing.py	/^def parse(all_games_json_data, bot_to_imitate=None, dump_features_location=None):$/;"	kind:function	line:120
+parse	../tsmlstarterbot/train.py	/^from tsmlstarterbot.parsing import parse$/;"	kind:namespace	line:8
+parser	../bin/compare_zips.py	/^    parser = argparse.ArgumentParser(description="Halite II training")$/;"	kind:variable	line:56
+parsing.py	../tsmlstarterbot/parsing.py	1;"	kind:file	line:1
+path	../tsmlstarterbot/train.py	/^import os.path$/;"	kind:namespace	line:3
+pd	../tsmlstarterbot/parsing.py	/^import pandas as pd$/;"	kind:namespace	line:2
+pd	../tsmlstarterbot/train.py	/^import pandas as pd$/;"	kind:namespace	line:7
+play	../tsmlstarterbot/bot.py	/^    def play(self):$/;"	kind:member	line:23
+predict	../tsmlstarterbot/neural_net.py	/^    def predict(self, input_data):$/;"	kind:member	line:82
+produce_features	../tsmlstarterbot/bot.py	/^    def produce_features(self, game_map):$/;"	kind:member	line:51
+produce_instructions	../tsmlstarterbot/bot.py	/^    def produce_instructions(self, game_map, ships_to_planets_assignment, round_start_time):$/;"	kind:member	line:179
+produce_ships_to_planets_assignment	../tsmlstarterbot/bot.py	/^    def produce_ships_to_planets_assignment(self, game_map, predictions):$/;"	kind:member	line:116
+re	../bin/compare_zips.py	/^import re$/;"	kind:namespace	line:3
+save	../tsmlstarterbot/neural_net.py	/^    def save(self, path):$/;"	kind:member	line:105
+send_command_queue	../hlt/networking.py	/^    def send_command_queue(command_queue):$/;"	kind:member	line:46
+serialize_data	../tsmlstarterbot/parsing.py	/^def serialize_data(data, dump_features_location):$/;"	kind:function	line:100
+subprocess	../bin/compare_zips.py	/^import subprocess$/;"	kind:namespace	line:4
+sys	../hlt/networking.py	/^import sys$/;"	kind:namespace	line:1
+test_invariance	../tests/neural_net_test.py	/^    def test_invariance(self):$/;"	kind:member	line:16
+tf	../tsmlstarterbot/neural_net.py	/^import tensorflow as tf$/;"	kind:namespace	line:2
+thrust	../hlt/entity.py	/^    def thrust(self, magnitude, angle):$/;"	kind:member	line:230
+time	../tsmlstarterbot/bot.py	/^import time$/;"	kind:namespace	line:4
+train.py	../tsmlstarterbot/train.py	1;"	kind:file	line:1
+tsmlstarterbot	../MyBot.py	/^import tsmlstarterbot$/;"	kind:namespace	line:1
+undock	../hlt/entity.py	/^    def undock(self):$/;"	kind:member	line:252
+unittest	../tests/neural_net_test.py	/^import unittest$/;"	kind:namespace	line:5
+update_map	../hlt/networking.py	/^    def update_map(self):$/;"	kind:member	line:87
+zipfile	../tsmlstarterbot/train.py	/^import zipfile$/;"	kind:namespace	line:4
