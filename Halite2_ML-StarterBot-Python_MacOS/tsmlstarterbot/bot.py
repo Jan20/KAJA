@@ -3,6 +3,7 @@ import numpy as np
 import os
 import time
 import logging
+import random
 
 import hlt
 from tsmlstarterbot.common import *
@@ -185,6 +186,19 @@ class Bot:
 
         return assignment
 
+    def collisionHandling(self, destination, future_ship_location):
+        targetTuple = (int(destination.x), int(destination.y))
+        if targetTuple in future_ship_location:
+            while targetTuple in future_ship_location:
+                targetTuple = (targetTuple + random.randint(-1,1), targetTuple + random.randint(-1,1))
+            destination = hlt.entity.Position(x = targetTuple[0], y = targetTuple[1])
+            future_ship_location.append(targetTuple)
+            logging.info("collisionHandling Active______________________")
+            return destination, future_ship_location
+        else:
+            return destination, future_ship_location
+
+
     def produce_instructions(self, game_map, ships_to_planets_assignment, round_start_time):
         """
         Given list of pairs (ship, planet) produce instructions for every ship to go to its respective planet.
@@ -197,6 +211,7 @@ class Bot:
         :return: list of instructions to send to the Halite engine
         """
         command_queue = []
+        future_ship_location = []
         # Send each ship to its planet
 
         ######################################################
@@ -275,8 +290,8 @@ class Bot:
             if ship.id == 0 and closest_start_enemy_ship_distance < 100:
                 logging.info("Initial Harassment Mechanic Active")
                 logging.info(closest_start_target)
-                command_queue.append(
-                    self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_start_target), speed))
+                navigate_command, future_ship_location = self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_start_target), speed, future_ship_location)
+                command_queue.append(navigate_command)
             
             ##########################################
             ### End of Initial Harassment Mechanic ###
@@ -294,12 +309,12 @@ class Bot:
                 if closest_team_ship_distance > 11: 
                     if closest_team_ship != None:
                         logging.info('Defend________________________________________________')
-                        command_queue.append(
-                            self.navigate(game_map, round_start_time, ship, closest_team_ship, speed))
+                        navigate_command, future_ship_location = self.navigate(game_map, round_start_time, ship, self.randomnessInTarget(closest_team_ship), speed, future_ship_location)
+                        command_queue.append(navigate_command)
                 else:
                     if closest_enemy_ship != None:
-                        command_queue.append(
-                            self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_enemy_ship), speed))      
+                        navigate_command, future_ship_location = self.navigate(game_map, round_start_time, ship, self.randomnessInTarget(ship.closest_point_to(closest_enemy_ship)), speed, future_ship_location)
+                        command_queue.append(navigate_command)      
                                 
             ##############################
             ### End of Combat Mechanic ###
@@ -311,8 +326,8 @@ class Bot:
             elif closest_enemy_ship_distance < 30:
                 if closest_enemy_ship.DockingStatus.DOCKED:
                     logging.info("Attack closeby mining ship Mechanic Active")
-                    command_queue.append(
-                        self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_enemy_ship), speed))    
+                    navigate_command, future_ship_location = self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_enemy_ship), speed, future_ship_location)
+                    command_queue.append(navigate_command)    
 
             ##########################################
             ### End of Mining Ship Attack Mechanic ###
@@ -332,8 +347,8 @@ class Bot:
             ################################
 
                 else:
-                    command_queue.append(
-                        self.navigate(game_map, round_start_time, ship, ship.closest_point_to(planet), speed))
+                    navigate_command, future_ship_location = self.navigate(game_map, round_start_time, ship, ship.closest_point_to(planet), speed, future_ship_location)
+                    command_queue.append(navigate_command)
             else:
                 docked_ships = planet.all_docked_ships()
                 assert len(docked_ships) > 0
@@ -341,11 +356,15 @@ class Bot:
                 for s in docked_ships:
                     if weakest_ship is None or weakest_ship.health > s.health:
                         weakest_ship = s
-                command_queue.append(
-                    self.navigate(game_map, round_start_time, ship, ship.closest_point_to(weakest_ship), speed))
+                navigate_command, future_ship_location = self.navigate(game_map, round_start_time, ship, ship.closest_point_to(weakest_ship), speed, future_ship_location)
+                command_queue.append(navigate_command)
         return command_queue
 
-    def navigate(self, game_map, start_of_round, ship, destination, speed):
+    def randomnessInTarget(self, destination):
+        target = hlt.entity.Position(x = destination.x + random.randint(-5,5), y = destination.y + random.randint(-5,5))
+        return target
+
+    def navigate(self, game_map, start_of_round, ship, destination, speed, future_ship_location):
         """
         Send a ship to its destination. Because "navigate" method in Halite API is expensive, we use that method only if
         we haven't used too much time yet.
@@ -361,10 +380,12 @@ class Bot:
         have_time = current_time - start_of_round < 1.2
         navigate_command = None
         if have_time:
+            #destination = self.randomnessInTarget(destination)
+            destination, future_ship_location = self.collisionHandling(destination, future_ship_location)
             navigate_command = ship.navigate(destination, game_map, speed=speed, max_corrections=180)
         if navigate_command is None:
             # ship.navigate may return None if it cannot find a path. In such a case we just thrust.
             dist = ship.calculate_distance_between(destination)
             speed = speed if (dist >= speed) else dist
             navigate_command = ship.thrust(speed, ship.calculate_angle_between(destination))
-        return navigate_command
+        return navigate_command, future_ship_location

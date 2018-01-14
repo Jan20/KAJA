@@ -1,0 +1,2453 @@
+INFO:root:Initialized bot Wave_Collision_Dancer_v5
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 5) at position: (x = 168.8191028593379, y = 91.42541032412868), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 5) at position: (x = 164.82592530910142, y = 94.43448543988892), with radius = 0.5
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 5) at position: (x = 163.37054347337713, y = 87.58745223475228), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 5) at position: (x = 161.79588609297005, y = 80.76686178125563), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 5) at position: (x = 167.66658006858802, y = 76.95438853615045), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 3) at position: (x = 168.8191028593379, y = 71.57458967587132), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 6) at position: (x = 161.00879872018461, y = 74.30717249603447), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:Initial Harassment Mechanic Active
+INFO:root:Entity Ship (id: 6) at position: (x = 161.00879872018461, y = 74.30717249603447), with radius = 0.5
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.45026932770724
+INFO:root:Combat Mechanic Active______________________
+INFO:root:25.802036373877225
+INFO:root:Defend________________________________________________
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.92026867346356
+INFO:root:Combat Mechanic Active______________________
+INFO:root:18.454134595991757
+INFO:root:Defend________________________________________________
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.699749769859988
+INFO:root:Combat Mechanic Active______________________
+INFO:root:14.428296446379122
+INFO:root:Defend________________________________________________
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.329901841097396
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.254802220066223
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.568611754991473
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.254802220066223
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.769689996754597
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.122671556352415
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.164097758939151
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.007401948137869
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.023770815345392
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.007401948137869
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.465262516333943
+INFO:root:Combat Mechanic Active______________________
+INFO:root:13.05236872545421
+INFO:root:Defend________________________________________________
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.148712623010336
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.5827868385374115
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.95765771640392
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.5827868385374115
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.62072194242329
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.7842349758075065
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.809416893741403
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.283148792929325
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.6338901039347404
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.79306692541789
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.196147570607514
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.79306692541789
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.823995863626468
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.1930567792182405
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.025041036834276
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.283148792929325
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.0096234650047604
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.352998260636651
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.731950844855606
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.977848008748011
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.790980696624526
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.201245755702096
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.859169696283145
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.283148792929325
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.158328613168498
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.200091914803718
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.665348513890534
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.4446167898180884
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.81638693659416
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.729903256575394
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.734300135598847
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.803148078600553
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.442268068909907
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.708019510269743
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.54741662733129
+INFO:root:Combat Mechanic Active______________________
+INFO:root:17.294675677100646
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.448296369173577
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.4792023137911166
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.641494607110055
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.4792023137911166
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.35702906960991
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.307472623105669
+INFO:root:Defend________________________________________________
+INFO:root:Settle
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.79553466823733
+INFO:root:Combat Mechanic Active______________________
+INFO:root:16.097543388201586
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.632205258253572
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.194485027926671
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.185710426388841
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.194485027926671
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.55935944689758
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.202560613542113
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.4118312887921785
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.202560613542113
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.73393196827503
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.598148838492655
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.774297848609853
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.4847352280219726
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.658760395418343
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.4847352280219726
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.818249105998843
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.5674058846718006
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.9533049425971925
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.5674058846718006
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.017852812252778
+INFO:root:Combat Mechanic Active______________________
+INFO:root:10.216048035734987
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.7427746385662783
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.4256945541851
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.224393075105488
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.81671314647079
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.92435134125192
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.4256945541851
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.5907872227048516
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.218448526216093
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.626142318462954
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.218448526216093
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.006762449048495
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.077159516055148
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.984111781954328
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.077159516055148
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.131139277776477
+INFO:root:Combat Mechanic Active______________________
+INFO:root:14.365161631002003
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.594806358344425
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.044377031742565
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.207370086460617
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.368891865086598
+INFO:root:Defend________________________________________________
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.337779494169464
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.152449918731792
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.300145191012113
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.064661820699171
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.34907150642495
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.064661820699171
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.119495902816492
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.132833995593773
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.950251978549144
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.283148792929325
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.75012673424554
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.503810029134111
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.732276780484042
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.969999521432459
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.989346794591127
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.969999521432459
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.5101583771593905
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.972846994469354
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.140710989760564
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.370380243568817
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.80496963770842
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.5675359040255632
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.770998899205362
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.364992790344354
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.597476764001682
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.730378873919749
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.366194854490055
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.028335942193809
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.58667678769088
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.90119223094499
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.8618415698687758
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.983111669152964
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.029049617352091
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.3272330869514475
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.111717778519628
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.283148792929325
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.30952237466243
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.3272330869514475
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.50688214929511
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.5131284493907975
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.2933753110958515
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.988371754682984
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.23326437313776
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.250014373857324
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.290917247363508
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.347353361609546
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.63850004986075
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.8244617683874775
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.249631897136579
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.267051152478274
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.290917247363508
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.497564526214441
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.539559019229046
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.320834326630367
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.539559019229046
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.482353679710269
+INFO:root:Combat Mechanic Active______________________
+INFO:root:16.70228342053397
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.35728995691747
+INFO:root:Combat Mechanic Active______________________
+INFO:root:14.939368404752267
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.653667672975877
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.251666049638827
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.18473965658292
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.842488790677274
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.530028976462413
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.9437530674515715
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.242406791023894
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.608655369925696
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.024746993153716
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.306048169507417
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.242406791023894
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.410356120899146
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.376462026234519
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.449022128162981
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.376462026234519
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.1926455289355316
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.945725050338549
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.941849058062534
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.159006239050383
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.128386418565205
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.757178522952304
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.5721324718173437
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.05156179244727
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.063731784710879
+INFO:root:Combat Mechanic Active______________________
+INFO:root:13.877846394421894
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.076951646403195
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.312519701772192
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.270469331791194
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.810189915278432
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.445718835146398
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.810189915278432
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.2859900965043076
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.296114957827376
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.043906971094442
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.152333828952841
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.283148792929325
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.536100797627062
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.5150389591182676
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.038292950608586
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.5150389591182676
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.0231200387074835
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.583317621040785
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.550270665813029
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.915827758343994
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.274774187808742
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.804295540384547
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.083647065514258
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.944488604235757
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.4750135166856566
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.26758114669658
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.425590703195395
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.09564977846464
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.253359339640471
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.09564977846464
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.945681842491215
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.935154310256891
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.21717771864026
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.807360711574427
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.4545989403983484
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.734018646703763
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.415087144185971
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.8248753483950146
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.2346731503564286
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.283148792929325
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.77960566977151
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.8248753483950146
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.663176993207587
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.9051112428998245
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.654389940421161
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.0370617592262725
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.1554099162241265
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.64631725827217
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.682416486676369
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.9099137613412225
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.253755523208556
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.190846064202256
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.1554099162241265
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.834477313613489
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.245577790773743
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.186094055063593
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.682416486676369
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.095768651773495
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.64069040406801
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.105599008380942
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.457471636786242
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.719319855197806
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.150705587995764
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.420510514186859
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.457471636786242
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.614041567090498
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.934473231600098
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.701091449297913
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.48806392581423
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.283148792929325
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.008885132808189
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.725135645820513
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.540680025157597
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.725135645820513
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.587083322103881
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.307490569935522
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.053475386830693
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.670208139090468
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.097642386863962
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.231165630017541
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.426358690931878
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.670208139090468
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.82852415927031
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.473630224483641
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.622337092365305
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.2930110601376725
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.635018408798583
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.2930110601376725
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.92783424350168
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.855111198589129
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.074520958169073
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.547101720953267
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.351198775071896
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.857167536905627
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.069856690935875
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.528839413685584
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.541207344871786
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.528839413685584
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.222300382745598
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.0698325723198683
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.7528843797203946
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.794869999103552
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.033595889978079
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.0698325723198683
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.068607484349432
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.236738464450959
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.328138610270726
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.336943612065018
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.1656558152237697
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.13491697508803
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.5141855066384138
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.505776657427486
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.5141855066384138
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.12210993484073
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.2775614797932695
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.281401800133363
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.7496670336282865
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.7440585827388
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.581647163007542
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.704949443442798
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.7496670336282865
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.83154814061416
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.739582725022832
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.597035066507235
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.785942698585071
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.444559180463331
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.2830497453717657
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.0464279517093735
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.2830497453717657
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.126431709719311
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.7597423845558575
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.503824127825286
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.868853226583667
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.382976892594356
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.3502134202497444
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.426113025130366
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.258747318122929
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.919989981916622
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.29285943387819
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.964780638628893
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.29285943387819
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.22030143161173
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.72874662901514
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.186155095098785
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.5974612858803456
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.091937048714723
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.0203147845235208
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.110079028281253
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.722412268555644
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.110079028281253
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.2851235217767427
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.339402439873201
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.242528694679135
+INFO:root:Combat Mechanic Active______________________
+INFO:root:20.28161948601764
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.441219346916037
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.736250595432182
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.514086578296755
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.736250595432182
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.238645856723288
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.198321762983012
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.525368889915661
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.698630905141629
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.91126028375301
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.57161699974154
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.270546135914544
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.391313253338827
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.270546135914544
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.586353766644653
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.347490621632603
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.545932875443796
+INFO:root:Combat Mechanic Active______________________
+INFO:root:18.303134604570655
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.322103043266322
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.633572451013459
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.1480610875945256
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.278772408762993
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.41321351512806
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.2347057827840486
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.591969566195395
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.2347057827840486
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.962622694728534
+INFO:root:Combat Mechanic Active______________________
+INFO:root:20.372658308898377
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.288803879267544
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.712552419392035
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.2811135274009353
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.2058607171471656
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.074769850102427
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.2058607171471656
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.787519296128888
+INFO:root:Combat Mechanic Active______________________
+INFO:root:14.103889451520445
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.2459503921833255
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.8839601831795836
+INFO:root:---NEW TURN---
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.098276205415707
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.836090574488126
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.7464631935849555
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.788501569983314
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.800656713252607
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.60640851736605
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.800656713252607
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.623291226926069
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.421134990089621
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.8416311609888196
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.421134990089621
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.2818620867896962
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.831193691259269
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.75182234394601
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.831193691259269
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.0306994915500933
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.018904232663871
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.959781911388138
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.1546406662798105
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.468610328974615
+INFO:root:Combat Mechanic Active______________________
+INFO:root:14.17779691646857
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.95366508461152
+INFO:root:Combat Mechanic Active______________________
+INFO:root:14.17779691646857
+INFO:root:Defend________________________________________________
+INFO:root:Settle
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.647449765833128
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.6187888293253505
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.5251132919783053
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.161305423949706
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.725237035889453
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.778775385960632
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.5425214755023093
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.440254868109474
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.5425214755023093
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.249984648559971
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.008211149700958
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.656620126206217
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.700695603526611
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.688573895235261
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.171356892082383
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.012451950193013
+INFO:root:Combat Mechanic Active______________________
+INFO:root:18.87708663683101
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.447315435990669
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.677433945094382
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.84933736112671
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.039822776260229
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.905563057812263
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.708137855780056
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.153664143291302
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.095436190513338
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.326745889581972
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.26202474529248
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.220042580381953
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.584310735344516
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.991549968376653
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.670982133888387
+INFO:root:Combat Mechanic Active______________________
+INFO:root:18.789444241650102
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.147095307056552
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.8664857209892884
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.219487456149501
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.8664857209892884
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.579784768186053
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.2328861080214795
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.540043739050999
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.2328861080214795
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.489241155231916
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.753252668912841
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.223257453584084
+INFO:root:Combat Mechanic Active______________________
+INFO:root:22.201329133489377
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.735177833686952
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.969437572733055
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.5690379729395705
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.6727846987296968
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.677153971942777
+INFO:root:Combat Mechanic Active______________________
+INFO:root:14.299687441077381
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.79932185889019
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.034283955886636
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.34951126941967
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.7190524022526124
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.036606720235241
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.7190524022526124
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.928381214302522
+INFO:root:Combat Mechanic Active______________________
+INFO:root:16.722381724612745
+INFO:root:Defend________________________________________________
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.669842789589484
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.2647417075534735
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.7909857881699183
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.224470303476966
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.066305525745655
+INFO:root:Combat Mechanic Active______________________
+INFO:root:25.510943662347795
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.399404834295124
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.300636893170646
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.817731534239194
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.3371262656934944
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.50211534157485
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.04382939211405
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.333414405100148
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.1518921865394942
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.01313838240988
+INFO:root:Combat Mechanic Active______________________
+INFO:root:18.517295149693556
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.51321068074153
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.501655241737715
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.608640331492714
+INFO:root:Combat Mechanic Active______________________
+INFO:root:18.701305248844342
+INFO:root:Defend________________________________________________
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.271315356838885
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.461973917538059
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.467966883204767
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.99206584428884
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.154765296364038
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.0874505457971586
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.6201448790636324
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.034796544708804
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.998277530416663
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.62998419326305
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.947683495701426
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.034796544708804
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.141558438123944
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.972542168907152
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.199614491071602
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.7521694371761125
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.6201448790636324
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.373115501070957
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.476090697894054
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.373115501070957
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.647753856912324
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.18241780920122
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.839968437908686
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.888794398910389
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.2027363075808113
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.944881776491684
+INFO:root:Defend________________________________________________
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.785518457387298
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.498880331092162
+INFO:root:Settle
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.725782123119286
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.250694766516247
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.816310854907467
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.754889774714098
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.736766358126008
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.237879661314974
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.915684988492492
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.20705737946072
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.465656920762893
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.737899756220413
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.634990806716239
+INFO:root:Combat Mechanic Active______________________
+INFO:root:19.44214959641632
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.788616118142562
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.737899756220413
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.060637054361845
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.154314609719096
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.014728663931724
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.330948489360568
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.65545115391562
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.289228238441734
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.15731690273183
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.742671902196443
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.86336222095445
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.0304841608831223
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.5614391630516264
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.162411575256542
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.627288457019706
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.001779742505955
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.510290628787452
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.6568484887002737
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.645327894677633
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.132729120621807
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.013763953076891
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.6568484887002737
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.014732343595142
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.330948489360568
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.381865760433827
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.349594097632102
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.621693758439
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.5810259034358747
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.573387146100625
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.5810259034358747
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.427174077480299
+INFO:root:Combat Mechanic Active______________________
+INFO:root:16.263739063589913
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.8010064309937235
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.1124075137881855
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.06477463713735
+INFO:root:Combat Mechanic Active______________________
+INFO:root:18.13621675340197
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.389144296799813
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.72569228446229
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.441620834057451
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.15205114473019
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.1649677262592295
+INFO:root:Combat Mechanic Active______________________
+INFO:root:10.27109554635313
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.0643275862680994
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.842764368267673
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.29543839875482
+INFO:root:Combat Mechanic Active______________________
+INFO:root:19.08633302223605
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.889264388805832
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.8857961902216354
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.473199973381189
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.842764368267673
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.271947668946446
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.192074702719903
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.235387021017605
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.287815084487589
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.209064733402393
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.505630163446287
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.382394764705358
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.973448746990309
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.496821375387652
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.874499463436957
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.649508542229133
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.973448746990309
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.366271059076496
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.458726382214549
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.192449432297067
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.5846491257140953
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.3957147294811385
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.085011318484995
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.7015478875941554
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.8273790138929895
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.000511559584687
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.95398286806725
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.178099042968492
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.693759927520357
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.730144520079692
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.455503389363249
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.567866717467604
+INFO:root:Combat Mechanic Active______________________
+INFO:root:18.957267551367714
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.587384259736123
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.95398286806725
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.393739101453293
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.085011318484995
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.205561162840844
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.1441533888873818
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.20719317380226
+INFO:root:Combat Mechanic Active______________________
+INFO:root:17.771152842849464
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.3410045647179905
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.1441533888873818
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.499532568483883
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.587795680422718
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.001832608019024
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.0874505457971586
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.412026709934388
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.446004522688409
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.169852892228724
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.052618811396271
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.930111987904166
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.446004522688409
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.53938829954125
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.82800631099985
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.680610644940914
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.542097510445679
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.875619840752992
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.9787028671064752
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.402731664541262
+INFO:root:Combat Mechanic Active______________________
+INFO:root:14.63772864101421
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.734299741236792
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.9787028671064752
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.4187596689666293
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.4963789308057485
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.782097090346118
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.8083875681269928
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.459785074730366
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.204081907563077
+INFO:root:Settle
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.376183390035994
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.5630167070034946
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.513262369102626
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.0608959022613713
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.046995671038115
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.970955109495526
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.988545668780691
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.0608959022613713
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.770140381880722
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.423454200305791
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.258748677944278
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.9037102451160655
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.170055782839233
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.423454200305791
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.75017634580253
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.110761698652949
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.464720106782524
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.866427468043159
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.3435790937402268
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.850846537373011
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.875515669501227
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.850846537373011
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.906690474809228
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.3579878615923073
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.020041621140473
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.3579878615923073
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.51334330970872
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.558207173610677
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.99325455096097
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.91717410048885
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.097084722266937
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.379458813060312
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.172808234198163
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.804061471637787
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.6176488327953527
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.968145688756032
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.4277795682960868
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.968145688756032
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.921007235416221
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.571835519632659
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.062935002613028
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.6490444519850755
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.23392853832075
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.995049996043289
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.212656816221053
+INFO:root:Combat Mechanic Active______________________
+INFO:root:17.157507358970204
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.91542611821041
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.568090784343569
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.118880110619465
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.182664856251556
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.781989755790544
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.126470344203008
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.89446326360225
+INFO:root:Combat Mechanic Active______________________
+INFO:root:10.64172105850831
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.786580320587793
+INFO:root:Combat Mechanic Active______________________
+INFO:root:16.475770966131524
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.261683805003373
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.422870389068628
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.55660994066997
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.039719221480263
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.439404688208107
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.039719221480263
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.194659196372802
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.8266261856690793
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.810579626979902
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.35604906883442
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.039480376544386
+INFO:root:Combat Mechanic Active______________________
+INFO:root:13.039505551989159
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.384707340669985
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.661120930512022
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.521372640942007
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.693692718689911
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.024612810788172
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.693692718689911
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.006114843972179
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.896816863510001
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.793256937706992
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.844193083752803
+INFO:root:Defend________________________________________________
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.3406885291586423
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.3685490323878
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.699545370836256
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.043282220973891
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.1189153140381265
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.6613880445578504
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.148939820945897
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.043282220973891
+INFO:root:Defend________________________________________________
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.272135590858962
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.877509277735802
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.895582470276679
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.742682660918933
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.691557973375925
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.089429797018683
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.539196045042571
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.089429797018683
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.631063882849428
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.8008811919615457
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.810219670258414
+INFO:root:Combat Mechanic Active______________________
+INFO:root:18.058123772394485
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.23255032818423
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.308371070222203
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.221281764849166
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.746886383183565
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.428164864366577
+INFO:root:Combat Mechanic Active______________________
+INFO:root:16.87814831782886
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.676581221773722
+INFO:root:Combat Mechanic Active______________________
+INFO:root:13.19348736504268
+INFO:root:Defend________________________________________________
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.2669627892287965
+INFO:root:Combat Mechanic Active______________________
+INFO:root:16.026496632670888
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.571573678132234
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.788590250555812
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.412452342578277
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.550590498488013
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Settle
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.55707867243473
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.3980902634883
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.046805141769111
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.4974112563545345
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.54443411972162
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.4974112563545345
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.811769646722309
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.6386398451778423
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.755020290178057
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.6386398451778423
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.199157221480468
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.72187407257679
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.200456619523624
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.72187407257679
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.110240468993592
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.947492137400608
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.8289546081269976
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.871942346534652
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.130095903850889
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.66093431693957
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.237833634204604
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.871942346534652
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.331997743879718
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.1042958770229245
+INFO:root:Settle
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.200457703140848
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.1042958770229245
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.62817150303681
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.943636694219602
+INFO:root:Defend________________________________________________
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.299800774828196
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.068250976403654
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.725401031671712
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.2312293732370627
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.49560911034695
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.2312293732370627
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.206313360000176
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.072714311497132
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.8759007432861377
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.072714311497132
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.76561939796883
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.49267579162822
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.558515138963331
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.923413800080125
+INFO:root:Defend________________________________________________
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.334236404097894
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.989122080076377
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.773754306457558
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.989122080076377
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.020258408128726
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.2682664277219424
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.077824630617148
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.2682664277219424
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.331185590431309
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.148380204331277
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.178914474933624
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.784486172427918
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.476279201949996
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.6532454203015385
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.485564319213902
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.2406689337361054
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.848930956875309
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.33009920356797
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.944054109485395
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.2406689337361054
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.152643472421792
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.635733399065533
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.105145045518102
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.355192579365246
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.311807372321015
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.635733399065533
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.214056763717961
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.715243451436401
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.448410682726974
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.378799420623215
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.607954884823509
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.378799420623215
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.66941657249303
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.647903602313361
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.93609871839265
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.025137710197441
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.3571238578144245
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.208587378199027
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.94776818763633
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.025137710197441
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.9190982161133425
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.535315877448089
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.748342254300131
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.735241119116049
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.769620427411319
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.735241119116049
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.302220578894203
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.7868156559274304
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.3243611650467795
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.7868156559274304
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.288978654731494
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.795818394668344
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.967155714696066
+INFO:root:Combat Mechanic Active______________________
+INFO:root:24.74455226568461
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.568461543632303
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.1967474699096625
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.046656950307657
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.1967474699096625
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.094850218883509
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.5431159521855835
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.60871573162017
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.5431159521855835
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.369263361614196
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.222946851978215
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.151828414756074
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.779317480385838
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.247095858209545
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.779317480385838
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.90989301708118
+INFO:root:Combat Mechanic Active______________________
+INFO:root:10.337805928734237
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.788091875283508
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.7635176803751005
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.468830347066906
+INFO:root:Combat Mechanic Active______________________
+INFO:root:21.08369484252758
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.20699101308799
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.7635176803751005
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.746306979355033
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.321711556261109
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.47776843070277
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.321711556261109
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.8774769960678475
+INFO:root:Combat Mechanic Active______________________
+INFO:root:9.42479813120808
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.525029346889355
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.070624104609075
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.765609807812649
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.4721537217874374
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.855955382144787
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.4721537217874374
+INFO:root:Settle
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.060892822898676
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.086331657992099
+INFO:root:closest_enemy_ship_distance
+INFO:root:19.125028640758284
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.142552110899951
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.959798401434263
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.244400308213585
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.993381522339994
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.244400308213585
+INFO:root:closest_enemy_ship_distance
+INFO:root:16.398899707583762
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.462011764218246
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.003681257288676
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.5722711890177554
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.02291131954671
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.3959091962599262
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.40055746997119
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.3959091962599262
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.248773716501237
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.120705478243824
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.036518737506391
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.8758965588886993
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.857460900800477
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.059348578575351
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.970579683049305
+INFO:root:Combat Mechanic Active______________________
+INFO:root:19.104976295397478
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.913610368249955
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.059348578575351
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.637951536339371
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.198331914867188
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.029004231203992
+INFO:root:Combat Mechanic Active______________________
+INFO:root:10.253631321317425
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.798646477487226
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.254729036808028
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.706685311548025
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.084038709257758
+INFO:root:Defend________________________________________________
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.823571532618511
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.6538122665136563
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:17.881230316103547
+INFO:root:Combat Mechanic Active______________________
+INFO:root:11.705978416653656
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:10.775793658194297
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.48381359987636
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.118927421879663
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.516018753733676
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.245355687919218
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.841334208023803
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.596883787302922
+INFO:root:Combat Mechanic Active______________________
+INFO:root:15.515267420120205
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.82566412649234
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.412507002621598
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.015226964361943
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.778399178418258
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.687437846762489
+INFO:root:Combat Mechanic Active______________________
+INFO:root:17.68743986035538
+INFO:root:Defend________________________________________________
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.672259947488527
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.2133725623045004
+INFO:root:closest_enemy_ship_distance
+INFO:root:14.21758387066662
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.012000898730747
+INFO:root:Defend________________________________________________
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.3382613496155065
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.3297803540760365
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.30121823349394
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.3297803540760365
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.173568477306086
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.128691413474898
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.401397175431786
+INFO:root:Combat Mechanic Active______________________
+INFO:root:5.437082515462851
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.33827592664186
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.9735098361275667
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.964015109562491
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.9735098361275667
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.219627978313206
+INFO:root:Combat Mechanic Active______________________
+INFO:root:12.34200747471928
+INFO:root:Defend________________________________________________
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.645537125760258
+INFO:root:Combat Mechanic Active______________________
+INFO:root:39.308774351151456
+INFO:root:Defend________________________________________________
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.104440493254906
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.381510093303262
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.853920628522967
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.381510093303262
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.836584138555301
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.4542963148317853
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.020380410422437
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.4542963148317853
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:3.660541688989773
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.502419161320368
+INFO:root:closest_enemy_ship_distance
+INFO:root:18.557633859696388
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.001417871868249
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.253251054207036
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.4025424981407735
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.640763922312241
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.96048111676089
+INFO:root:closest_enemy_ship_distance
+INFO:root:8.569748738307696
+INFO:root:Combat Mechanic Active______________________
+INFO:root:2.5355990557561783
+INFO:root:closest_enemy_ship_distance
+INFO:root:11.94762005712611
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.7741057052537434
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:12.050211668084206
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.775003601747335
+INFO:root:closest_enemy_ship_distance
+INFO:root:9.042521511556929
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.929765621680291
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:2.8364113329013443
+INFO:root:Combat Mechanic Active______________________
+INFO:root:14.643169152986822
+INFO:root:Defend________________________________________________
+INFO:root:---NEW TURN---
+INFO:root:Attack closeby mining ship Mechanic Active
+INFO:root:closest_enemy_ship_distance
+INFO:root:4.67234038590375
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.710370828119343
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:13.184713049970263
+INFO:root:Combat Mechanic Active______________________
+INFO:root:3.3412659767077284
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.261749780836134
+INFO:root:Combat Mechanic Active______________________
+INFO:root:7.148249950765256
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.74403213338209
+INFO:root:Combat Mechanic Active______________________
+INFO:root:6.852866511440637
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:1.2130600508537586
+INFO:root:Combat Mechanic Active______________________
+INFO:root:8.916618805519212
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:15.888530175779255
+INFO:root:Combat Mechanic Active______________________
+INFO:root:4.001417871868249
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:6.475356134773289
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.3604505734821792
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:5.478791362934029
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.3604505734821792
+INFO:root:---NEW TURN---
+INFO:root:closest_enemy_ship_distance
+INFO:root:7.576832724805291
+INFO:root:Combat Mechanic Active______________________
+INFO:root:1.1994508537277362
+INFO:root:---NEW TURN---
+INFO:root:---NEW TURN---
