@@ -35,8 +35,6 @@ class Bot:
 
             # Produce features for each planet.
             features = self.produce_features(game_map)
-            logging.info("----------features--------")
-            logging.info(features)
             
             # Find predictions which planets we should send ships to.
             predictions = self._neural_net.predict(features)
@@ -203,40 +201,6 @@ class Bot:
         ######################################################
         
 
-        docked_ships = [ship for ship in game_map.get_me().all_ships() if ship.docking_status == ship.DockingStatus.DOCKED]
-        for ship in docked_ships:
-                            
-            entities_by_distance = game_map.nearby_entities_by_distance(ship)
-            team_ships = game_map.get_me().all_ships()
-            
-            filtered_entities_by_distance = []
-            nearest_enemy_ship = None
-
-            for entity in entities_by_distance:
-                if isinstance(entity, hlt.entity.Ship):
-                    if nearest_enemy_ship not in team_ships:
-                        filtered_entities_by_distance.append(entity)
-        
-        
-            if len(filtered_entities_by_distance) < 10:
-                filtered_entities_by_distance = []
-                distance_to_next_enemy_ship = 1000
-
-                nearest_enemy_ship = None
-                for distance in sorted(entities_by_distance):
-                    nearest_enemy_ship = next((nearest_entity for nearest_entity in entities_by_distance[distance] if isinstance(nearest_entity, hlt.entity.Ship)), None)
-                    if nearest_enemy_ship:
-                        if nearest_enemy_ship not in team_ships:
-                            logging.info("from ship with id: ")
-                            logging.info(ship.id)
-                            logging.info(ship.calculate_distance_between(nearest_enemy_ship))                        
-                            if distance_to_next_enemy_ship > ship.calculate_distance_between(nearest_enemy_ship):
-                                distance_to_next_enemy_ship = ship.calculate_distance_between(nearest_enemy_ship)
-
-                # TODO 
-                # if distance_to_next_enemy_ship < 40:
-                #     logging.info("Undock")
-                #     command_queue.append(ship.undock())
 
         ##############################
         ### End of Undock Mechanic ###
@@ -266,78 +230,65 @@ class Bot:
             # Checking whether a planet is free to be settled
             is_planet_friendly = not planet.is_owned() or planet.owner == game_map.get_me()
 
-            ######################################################
-            ### Interceptor Mechanic if enemy ships are nearby ###
-            ######################################################
-            entities_by_distance = game_map.nearby_entities_by_distance(ship)
+            ##############################
+            ### Mandatory calculations ###
+            ##############################
+            initial_team_ships = [team_ship for team_ship in game_map.get_me().all_ships()]
+            team_ships = []
+            for team_ship in initial_team_ships:
+                if team_ship.id != ship.id:
+                    team_ships.append(team_ship)
 
-            team_ships = game_map.get_me().all_ships()
+            all_enemy_ships = [enemy_ship for enemy_ship in game_map._all_ships() if enemy_ship not in team_ships and enemy_ship.id != ship.id]
+            enemy_ships_nearby = [enemy_ship for enemy_ship in game_map._all_ships() if enemy_ship not in initial_team_ships and ship.calculate_distance_between(enemy_ship) < 40]
+            team_ships_nearby = [team_ship for team_ship in team_ships if ship.calculate_distance_between(team_ship) < 50]
+            
+            closest_enemy_ship_distance = 1000
+            closest_enemy_ship = all_enemy_ships[0]
+            for enemy_ship in enemy_ships_nearby:
+                if ship.calculate_distance_between(enemy_ship) < closest_enemy_ship_distance:
+                    closest_enemy_ship_distance = ship.calculate_distance_between(enemy_ship)
+                    closest_enemy_ship = enemy_ship
 
-            nearest_enemy_ship = None
-            target_enemy_ship = None
-            nearest_planet = None
-            filtered_entities_by_distance = []
+            closest_start_enemy_ship_distance = 1000
+            closest_start_target = all_enemy_ships[0]
+            for enemy_ship in all_enemy_ships:
+                if ship.calculate_distance_between(enemy_ship) < closest_start_enemy_ship_distance:
+                    closest_start_enemy_ship_distance = ship.calculate_distance_between(enemy_ship)
+                    closest_start_target = enemy_ship
 
-            for distance in sorted(entities_by_distance):
-                nearest_enemy_ship = next((nearest_entity for nearest_entity in entities_by_distance[distance] if isinstance(nearest_entity, hlt.entity.Ship)), None)
-                if nearest_enemy_ship not in team_ships:
-                    if nearest_enemy_ship != None:                       
-                        filtered_entities_by_distance.append(nearest_enemy_ship)
-                        if distance_to_next_enemy_ship > ship.calculate_distance_between(nearest_enemy_ship):
-                            distance_to_next_enemy_ship = ship.calculate_distance_between(nearest_enemy_ship)
-                            target_enemy_ship = nearest_enemy_ship
-                            distance = 1000
+            closest_team_ship_distance = 1000
+            closest_team_ship = None
+            for team_ship in team_ships_nearby:
+                if ship.calculate_distance_between(team_ship) < closest_team_ship_distance:
+                    closest_team_ship_distance = ship.calculate_distance_between(team_ship)
+                    closest_team_ship = team_ship
 
+            # Calculation for Unus pro omnibus, omnes pro uno
+            initial_team_ships = [team_ship for team_ship in game_map.get_me().all_ships()]
+            enemy_ships_nearby = [enemy_ship for enemy_ship in game_map._all_ships() if enemy_ship not in initial_team_ships and ship.calculate_distance_between(enemy_ship) < 65]
+            team_ships_nearby = [friend_ship for friend_ship in initial_team_ships if friend_ship != ship and ship.calculate_distance_between(friend_ship) < 65]
 
-
-            # First Turn
-            # if ship != None and ship.id == 1 and target_planet != None:
-            #     distance_to_next_friendly_ship = 1000
-            #     for distance in sorted(entities_by_distance):
-            #         nearest_team_ship = next((nearest_entity for nearest_entity in entities_by_distance[distance] if isinstance(nearest_entity, hlt.entity.Ship)), None)
-            #         if nearest_team_ship != None:
-            #             if nearest_enemy_ship in team_ships:
-            #                 if distance_to_next_friendly_ship > ship.calculate_distance_between(nearest_team_ship):
-            #                     distance_to_next_friendly_ship = ship.calculate_distance_between(nearest_team_ship)
-            #                     distance = 1000
-            #     if ship.can_dock(planet):
-            #         command_queue.append(ship.dock(target_planet))
-            #     elif ship.docking_status == ship.DockingStatus.UNDOCKED and distance_to_next_friendly_ship > 8 or nearest_enemy_ship.DockingStatus == ship.DockingStatus.UNDOCKED:
-            #         logging.info("Initial Harassment Mechanic Active")
-            #         command_queue.append(
-            #             self.navigate(game_map, round_start_time, ship, ship.closest_point_to(target_planet), speed))
-
-            # # First Turn
-            # elif ship != None and  ship.id == 2 and target_planet != None:
-            #     distance_to_next_friendly_ship = 1000
-            #     for distance in sorted(entities_by_distance):
-            #         nearest_team_ship = next((nearest_entity for nearest_entity in entities_by_distance[distance] if isinstance(nearest_entity, hlt.entity.Ship)), None)
-            #         if nearest_team_ship != None:
-            #             if nearest_enemy_ship in team_ships:
-            #                 if distance_to_next_friendly_ship > ship.calculate_distance_between(nearest_team_ship):
-            #                     distance_to_next_friendly_ship = ship.calculate_distance_between(nearest_team_ship)
-            #                     distance = 1000
-            #     if ship.can_dock(planet):
-            #         command_queue.append(ship.dock(target_planet))
-            #     elif ship.docking_status == ship.DockingStatus.UNDOCKED and distance_to_next_friendly_ship > 8 or nearest_enemy_ship.DockingStatus == ship.DockingStatus.UNDOCKED:
-            #         logging.info("Initial Harassment Mechanic Active")
-            #         command_queue.append(
-            #             self.navigate(game_map, round_start_time, ship, ship.closest_point_to(target_planet), speed))
+            ###################################
+            ### Initial Harassment Mechanic ###
+            ###################################
 
             # First Turn
-            if ship != None and  ship.id == 0 and len(filtered_entities_by_distance) < 6 and distance_to_next_enemy_ship < 110:
-                initial_harasser = True
-                if ship.docking_status == ship.DockingStatus.UNDOCKED:
-                    
-                    logging.info("Initial Harassment Mechanic Active")
-                    command_queue.append(
-                        self.navigate(game_map, round_start_time, ship, ship.closest_point_to(target_enemy_ship), speed))
+            if ship.id == 0 and closest_start_enemy_ship_distance < 100:
+                logging.info("Initial Harassment Mechanic Active")
+                logging.info(closest_start_target)
+                command_queue.append(
+                    self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_start_target), speed))
+            
+            ##########################################
+            ### End of Initial Harassment Mechanic ###
+            ##########################################
 
             ########################
             # Himmelfahrtskommando #
             ########################
-            elif target_enemy_ship != None and distance_to_next_enemy_ship < 7: # Ship is near to enemy's ship
-                if ship.health > 64 and ship.health < 129 and ship.health < target_enemy_ship.health and target_enemy_ship.health > 64:
+            elif closest_enemy_ship_distance < 7: # Ship is near to enemy's ship
+                if ship.health > 64 and ship.health < 129 and ship.health < closest_enemy_ship.health and closest_enemy_ship.health > 64:
                     logging.info('Start: Himmelfahrtskommando: ')
                     logging.info(ship.id)
                     logging.info(ship.x)
@@ -345,60 +296,73 @@ class Bot:
                     logging.info("Own health: ")
                     logging.info(ship.health)
                     logging.info("Enemy's ID: ")
-                    logging.info(target_enemy_ship.id)
+                    logging.info(closest_enemy_ship.id)
                     logging.info("Enemy's health: ")
-                    logging.info(target_enemy_ship.health)
-                    logging.info('END: Himmelfahrtskommando')
+                    logging.info(closest_enemy_ship.health)
+                    logging.info('END: Himmelfahrtskommando by Kevin')
                     command_queue.append(
-                        self.navigate(game_map, round_start_time, ship, target_enemy_ship, speed))
-	
-            elif target_enemy_ship != None and distance_to_next_enemy_ship < 35:
-                if target_enemy_ship.DockingStatus.DOCKED:
-                    if ship.docking_status == ship.DockingStatus.UNDOCKED:
-                        logging.info("Attack closeby mining ship Mechanic Active")
-                        command_queue.append(
-                            self.navigate(game_map, round_start_time, ship, ship.closest_point_to(target_enemy_ship), speed))    
+                        self.navigate(game_map, round_start_time, ship, closest_enemy_ship, speed))
 
-            elif target_enemy_ship != None and distance_to_next_enemy_ship < 22:
-                logging.info(filtered_entities_by_distance)
-                if ship.docking_status == ship.DockingStatus.UNDOCKED:
-                    logging.info("Intercept nearby ship Mechanic Active")
-                    command_queue.append(
-                        self.navigate(game_map, round_start_time, ship, ship.closest_point_to(target_enemy_ship), speed))
-                    
 
-                #     if navigate_command:
-                #         distance_to_next_enemy_ship = 1000
-                #         logging.info("Interceptor Mechanic Active")
-                #         command_queue.append(navigate_command) 
-                        
-
-                
             ###################################
-            ### End of Interceptor Mechanic ###
-            ################################### 
+            # Unus pro omnibus, omnes pro uno #
+            ###################################
+
+            elif closest_enemy_ship_distance < 65 and len(team_ships_nearby) < len(enemy_ships_nearby):
+                logging.info("Unus pro omnibus")
+                if closest_team_ship != None:
+                    command_queue.append(
+                        self.navigate(game_map, round_start_time, ship, closest_team_ship, speed))
+
+
+            #######################
+            ### Combat Mechanic ###
+            #######################
+            elif closest_enemy_ship_distance < 20:
+                logging.info('closest_enemy_ship_distance')
+                logging.info(closest_enemy_ship_distance)
+
+                logging.info('Combat Mechanic Active______________________')
+                logging.info(closest_team_ship_distance)
+                # if closest_team_ship_distance > 11: 
+                #     if closest_team_ship != None:
+                #         logging.info('Defend________________________________________________')
+                #         command_queue.append(
+                #             self.navigate(game_map, round_start_time, ship, closest_team_ship, speed))
+                # else:
+                if closest_enemy_ship != None:
+                    command_queue.append(
+                        self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_enemy_ship), speed))      
+                                
+            ##############################
+            ### End of Combat Mechanic ###
+            ##############################
+
+            ###################################
+            ### Mining Ship Attack Mechanic ###
+            ###################################
+            elif closest_enemy_ship_distance < 30:
+                if closest_enemy_ship.DockingStatus.DOCKED:
+                    logging.info("Attack closeby mining ship Mechanic Active")
+                    command_queue.append(
+                        self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_enemy_ship), speed))    
+
+            ##########################################
+            ### End of Mining Ship Attack Mechanic ###
+            ##########################################
 
             ##########################################################
             ### Settling Mechanic if there is no enemy ship nearby ###
             ##########################################################
             elif is_planet_friendly:
-
-
-                # Initial behaviour
-                # if ship.can_dock(planet):
-                #     command_queue.append(ship.dock(planet))
-
-         
                 if ship.can_dock(planet):
-                    if distance_to_next_enemy_ship > 15:
+                    if closest_enemy_ship_distance > 15:
                         logging.info("Settle")
                         command_queue.append(ship.dock(planet))
                         
-                
-                ################################
-                ### End of Settling Mechanic ###
-                ################################
-
+            ################################
+            ### End of Settling Mechanic ###
+            ################################
 
                 else:
                     command_queue.append(
