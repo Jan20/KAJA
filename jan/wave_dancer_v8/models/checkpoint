@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/Jan/Developer/Game_AI/Halite2/jan/Halite2_ML-StarterBot-Python_MacOS/tsmlstarterbot/../models/model_long_training.ckpt"
+all_model_checkpoint_paths: "/Users/Jan/Developer/Game_AI/Halite2/jan/Halite2_ML-StarterBot-Python_MacOS/tsmlstarterbot/../models/model_long_training.ckpt"
