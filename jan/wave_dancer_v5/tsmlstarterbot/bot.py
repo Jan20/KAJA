@@ -256,13 +256,33 @@ class Bot:
         delta_z = active_ship.calculate_distance_between(target)
 
         alpha = active_ship.calculate_angle_between(target)
+        logging.info("alpha")
+        logging.info(alpha)
         beta = 90 - alpha
         gamma = 90
 
         delta_x = math.cos(alpha) * delta_z
         delta_y = math.sin(beta) * delta_z
+
         new_position = Position(x = active_ship.x + delta_x, y = active_ship.y + delta_y)
+
+        t = math.pow(math.cos(alpha) * delta_z, 2) + math.pow(math.sin(beta) * delta_z ,2 )
+        logging.info('result')
+        logging.info(math.sqrt(t)) 
+        
+        logging.info("Current Position")
+        logging.info(active_ship.id)
+        logging.info(active_ship.x)
+        logging.info(active_ship.y)
+
+        logging.info("New Position")
+        logging.info(active_ship.id)
+        logging.info(new_position.x)
+        logging.info(new_position.y)
+
         return new_position
+
+
     ##################################
     ### End of Collision Avoidance ###
     ##################################
@@ -365,38 +385,7 @@ class Bot:
         ##############################
 
 
-        ################
-        ### Flocking ###
-        ################
-        for ship, planet in ships_to_planets_assignment:
-    
-            logging.info("ship.position")
-            logging.info(ship.x)
-            logging.info(ship.y)
-            target = Position(ship.x, ship.y)
-
-            logging.info('New Position')
-            logging.info(target)
-
-
-            logging.info('--------------------------------------Flocking-----------------------------------------------')
-            logging.info(ship.calculate_angle_between(Position(0, 0)))
-
-            future_position_map = []
-            # newFuturePosition = self.get(ship, Position(0,0))
-            #new_future_position = FuturePosition(ship.id, Position(ship.x + delta_x, ship.y + delta_y))
-
-            logging.info("New Position")
-            #logging.info(future_position_map[0].Position)
-            # for ship, planet in ships_to_planets_assignment:
-            #     if ship.x == target.x and ship.y == target.y:
-            #         new_target = 
-            #         logging.info('--------------------------------------Awesome there is one -----------------------------------------------')
-    
-
-        #######################
-        ### End of Flocking ###
-        #######################
+       
 
         target_planet = None
         filtered_planets_by_distance = []
@@ -472,10 +461,48 @@ class Bot:
             ### End of Initial Harassment Mechanic ###
             ##########################################
 
+
+            ################
+            ### Flocking ###
+            ################
+            # if closest_enemy_ship_distance < 20:
+            elif False:
+            
+                for ship, planet in ships_to_planets_assignment:
+            
+                    logging.info("ship.position")
+                    logging.info(ship.x)
+                    logging.info(ship.y)
+                    target = Position(ship.x, ship.y)
+
+                    logging.info('New Position')
+                    logging.info(target)
+
+
+                    logging.info('--------------------------------------Flocking-----------------------------------------------')
+                    logging.info(ship.calculate_angle_between(Position(0, 0)))
+
+                    future_position_map = []
+                    # newFuturePosition = self.get(ship, Position(0,0))
+                    #new_future_position = FuturePosition(ship.id, Position(ship.x + delta_x, ship.y + delta_y))
+
+                    logging.info("New Position")
+                    #logging.info(future_position_map[0].Position)
+                    # for ship, planet in ships_to_planets_assignment:
+                    #     if ship.x == target.x and ship.y == target.y:
+                    #         new_target = 
+                    #         logging.info('--------------------------------------Awesome there is one -----------------------------------------------')
+        
+
+            #######################
+            ### End of Flocking ###
+            #######################
+
             #######################
             ### Combat Mechanic ###
             #######################
-            elif closest_enemy_ship_distance < 20:
+            elif closest_enemy_ship_distance < 30:
+            # elif True:
                 logging.info('closest_enemy_ship_distance')
                 logging.info(closest_enemy_ship_distance)
 
@@ -486,11 +513,12 @@ class Bot:
                         logging.info('Find a friend')
 
                         navigation_target = Position(closest_team_ship.x + 0.6, closest_team_ship.y + 0.6)
+                        future_position = self.compute_future_position(ship, navigation_target)
                         
                         for future_position in future_positions:
                             if future_position.x == navigation_target.x and future_position.y == navigation_target.y:
+                                logging.info('correction')
                                 navigation_target = Position(closest_team_ship.x + 0.6, closest_team_ship.y + 0.6)
-                        future_position = self.compute_future_position(ship, navigation_target)
                         
                         future_positions.append(future_position)
 
@@ -498,9 +526,16 @@ class Bot:
                             self.navigate(game_map, round_start_time, ship, navigation_target, speed))
 
                 else:
-                    if closest_enemy_ship != None:
-                        command_queue.append(
-                            self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_enemy_ship), speed))      
+                    navigation_target = Position(closest_team_ship.x + 0.6, closest_team_ship.y + 0.6)
+                    future_position = self.compute_future_position(ship, navigation_target)
+                    for future_position in future_positions:
+                        if future_position.x == navigation_target.x and future_position.y == navigation_target.y:
+                            navigation_target = Position(closest_team_ship.x + 0.6, closest_team_ship.y + 0.6)
+                    
+                    future_positions.append(future_position)
+                    logging.info('attack')
+                    command_queue.append(
+                        self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_enemy_ship), speed))      
                                 
             ##############################
             ### End of Combat Mechanic ###
@@ -509,7 +544,7 @@ class Bot:
             ###################################
             ### Mining Ship Attack Mechanic ###
             ###################################
-            elif closest_enemy_ship_distance < 30:
+            elif closest_enemy_ship_distance < 0:
                 if closest_enemy_ship.DockingStatus.DOCKED:
                     logging.info("Attack closeby mining ship Mechanic Active")
                     command_queue.append(
@@ -533,6 +568,7 @@ class Bot:
             ################################
 
                 else:
+                    logging.info('default behaviour')
                     command_queue.append(
                         self.navigate(game_map, round_start_time, ship, ship.closest_point_to(planet), speed))
             else:
