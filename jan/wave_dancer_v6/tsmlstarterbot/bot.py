@@ -250,11 +250,13 @@ class Bot:
     ### Collision Avoidance ###
     ###########################
     def compute_future_position(self, active_ship, target):
-        
+        logging.info("target")
+        logging.info(target)
         delta_x = 0
         delta_y = 0
         delta_z = active_ship.calculate_distance_between(target)
-
+        logging.info("delta_Z")
+        logging.info(delta_z)
         alpha = active_ship.calculate_angle_between(target)
         logging.info("alpha")
         logging.info(alpha)
@@ -280,20 +282,9 @@ class Bot:
         logging.info(new_position.x)
         logging.info(new_position.y)
 
+        logging.info("Future Postion after compute future position")
+        logging.info(new_position)
         return new_position
-
-    def avoidCollision(self, active_ship, navigation_target, *future_positions):
-        
-        logging.info('avoid collisions function was triggered')
-
-        for future_position in future_positions:
-            
-            if future_position.x == navigation_target.x and future_position.y == navigation_target.y:
-                self.avoidCollision(active_ship, Position(navigation_target.x + 0.6, navigation_target.y + 0.6), future_positions)
-            
-            else:
-                return navigation_target  
-
 
     ##################################
     ### End of Collision Avoidance ###
@@ -463,7 +454,7 @@ class Bot:
             ###################################
 
             # First Turn
-            if ship.id == 0 and closest_start_enemy_ship_distance < 100:
+            if ship.id == 0 and closest_start_enemy_ship_distance < 95:
                 logging.info("Initial Harassment Mechanic Active")
                 logging.info(closest_start_target)
                 command_queue.append(
@@ -509,57 +500,103 @@ class Bot:
             ### End of Flocking ###
             #######################
 
+
+            ###################################
+            ### Mining Ship Attack Mechanic ###
+            ###################################
+            # elif closest_enemy_ship_distance < 10 and closest_enemy_ship.DockingStatus.DOCKED:
+            #     logging.info("Attack closeby mining ship Mechanic Active")
+            #     command_queue.append(
+            #         self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_enemy_ship), speed))    
+
+            ##########################################
+            ### End of Mining Ship Attack Mechanic ###
+            ##########################################
+
+           
+
+
             #######################
             ### Combat Mechanic ###
             #######################
-            elif closest_enemy_ship_distance < 20:
-            # elif True:
-                logging.info('closest_enemy_ship_distance')
-                logging.info(closest_enemy_ship_distance)
+            elif closest_enemy_ship_distance < 30:
 
-                logging.info('Combat Mechanic Active______________________')
-                logging.info(closest_team_ship_distance)
-                if closest_team_ship_distance > 2: 
+                initial_team_ships = [team_ship for team_ship in game_map.get_me().all_ships()]
+                team_ships = []
+                for team_ship in initial_team_ships:
+                    if team_ship.id != ship.id:
+                        team_ships.append(team_ship)
+
+                all_enemy_ships = [enemy_ship for enemy_ship in game_map._all_ships() if enemy_ship not in team_ships and enemy_ship.id != ship.id]
+                enemy_ships_nearby = [enemy_ship for enemy_ship in game_map._all_ships() if enemy_ship not in initial_team_ships and ship.calculate_distance_between(enemy_ship) < 40]
+                team_ships_nearby = [team_ship for team_ship in team_ships if ship.calculate_distance_between(team_ship) < 50]
+                
+                closest_enemy_ship_distance = 1000
+                closest_enemy_ship = all_enemy_ships[0]
+                for enemy_ship in enemy_ships_nearby:
+                    if ship.calculate_distance_between(enemy_ship) < closest_enemy_ship_distance:
+                        closest_enemy_ship_distance = ship.calculate_distance_between(enemy_ship)
+                        closest_enemy_ship = enemy_ship
+
+                closest_start_enemy_ship_distance = 1000
+                closest_start_target = all_enemy_ships[0]
+                for enemy_ship in all_enemy_ships:
+                    if ship.calculate_distance_between(enemy_ship) < closest_start_enemy_ship_distance:
+                        closest_start_enemy_ship_distance = ship.calculate_distance_between(enemy_ship)
+                        closest_start_target = enemy_ship
+
+                closest_team_ship_distance = 1000
+                closest_team_ship = None
+                for team_ship in team_ships_nearby:
+                    if ship.calculate_distance_between(team_ship) < closest_team_ship_distance:
+                        closest_team_ship_distance = ship.calculate_distance_between(team_ship)
+                        closest_team_ship = team_ship
+
+                ###################################
+                ### Initial Harassment Mechanic ###
+                ###################################
+                logging.info(closest_team_ship)
+                if closest_team_ship_distance > 5: 
                     if closest_team_ship != None:
                         logging.info('Find a friend')
 
-                        
-                        navigation_target = Position(closest_team_ship.x + 0.6, closest_team_ship.y + 0.6)
-                        navigation_target = self.avoidCollision(self, ship, navigation_target, future_positions)
+                        navigation_target = Position(closest_team_ship.x + 1, closest_team_ship.y + 1)
+                        logging.info('Old Navigation Target')
+                        logging.info(navigation_target)
+
+                        for counter in range(0, len(future_positions)-1):
+                            # logging.info(future_positions[counter])
+                            if (future_positions[counter].x < navigation_target.x + 0.5 or future_positions[counter].x > navigation_target.x - 0.5) and (future_positions[counter].y < navigation_target.y +0.5 or future_positions[counter].y > navigation_target.y-0.5):
+                                navigation_target = Position(navigation_target.x + 1, navigation_target.y + 1)
+                                counter = 0
+                        logging.info('Nehmen wir immer noch uns selbst?')
+                        logging.info(navigation_target)
                         future_position = self.compute_future_position(ship, navigation_target)
                         future_positions.append(future_position)
                         
-                        logging.info('flock')
                         command_queue.append(
                             self.navigate(game_map, round_start_time, ship, navigation_target, speed))
 
                 else:
                     
                     navigation_target = Position(closest_enemy_ship.x, closest_enemy_ship.y)
-                    navigation_target = self.avoidCollision(self, ship, navigation_target, future_positions)
+
+                    for counter in range(0, len(future_positions)-1):
+                            if (future_positions[counter].x < navigation_target.x + 0.5 or future_positions[counter].x > navigation_target.x - 0.5) and (future_positions[counter].y < navigation_target.y +0.5 or future_positions[counter].y > navigation_target.y-0.5):
+                                navigation_target = Position(navigation_target.x + 1, navigation_target.y + 1)
+                            counter = 0
+
                     future_position = self.compute_future_position(ship, navigation_target)
                     future_positions.append(future_position)
 
                     logging.info('attack')
                     command_queue.append(
-                        self.navigate(game_map, round_start_time, ship, ship.closest_point_to(navigation_target), speed))      
+                        self.navigate(game_map, round_start_time, ship, navigation_target, speed))      
                                 
             ##############################
             ### End of Combat Mechanic ###
             ##############################
 
-            ###################################
-            ### Mining Ship Attack Mechanic ###
-            ###################################
-            elif closest_enemy_ship_distance < 30:
-                if closest_enemy_ship.DockingStatus.DOCKED:
-                    logging.info("Attack closeby mining ship Mechanic Active")
-                    command_queue.append(
-                        self.navigate(game_map, round_start_time, ship, ship.closest_point_to(closest_enemy_ship), speed))    
-
-            ##########################################
-            ### End of Mining Ship Attack Mechanic ###
-            ##########################################
 
             ##########################################################
             ### Settling Mechanic if there is no enemy ship nearby ###
