@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/halite/Alina-Halite/tsmlstarterbot/../models/model_multi_training.ckpt"
+all_model_checkpoint_paths: "/home/halite/Alina-Halite/tsmlstarterbot/../models/model_multi_training.ckpt"
